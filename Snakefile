@@ -27,3 +27,8 @@ rule prepare_postprocessing:
     threads: 1
     script:
         "scripts/make_stats_dicts.py"
+
+rule all:
+    input:
+        "networks/solved_h2",
+        "results/",
