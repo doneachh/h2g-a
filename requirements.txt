@@ -1,6 +1,7 @@
-geopandas
-pip
 streamlit>=1.18
 pandas
+numpy
 plotly
-pyaml
+pyyaml
+pydeck
+kaleido<=1.0
